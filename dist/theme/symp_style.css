@@ -12,12 +12,12 @@ section.has-light-background, section.has-light-background h1, section.has-light
  *********************************************/
 :root {
   --background-color: #B0C4DE;
-  --main-font: 'Open Sans', sans-serif;
+  --main-font: 'Comic Neue', sans-serif;
   --main-font-size: 42px;
   --main-color: #fff;
   --block-margin: 20px;
   --heading-margin: 0 0 20px 0;
-  --heading-font: 'Open Sans', sans-serif;
+  --heading-font: 'Comic Neue', sans-serif;
   --heading-color: #191919;
   --heading-line-height: 1.2;
   --heading-letter-spacing: normal;
@@ -40,7 +40,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   background-color: #B0C4DE; }
 
 .reveal {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Comic Neue', sans-serif;
   font-size: 42px;
   font-weight: normal;
   color: #191919; }
@@ -71,7 +71,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #191919;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Comic Neue', sans-serif;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
