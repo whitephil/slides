@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Mapping Search Queries to GeoLibrary Metadata Fields</title>
+
+		<meta name="description" content="Presentation on 12-16-2020 at CU Boulder Libraries Symposium">
+		<meta name="author" content="Phil White & Erik Radio">
+
+		<meta name="reveal" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="creator" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/symp_style.css" id="theme">
+
+		<!-- emoji style -->
+		<link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+
+		<style>
+
+		#left_slide {
+			text-align: left;}
+
+		</style>
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section data-background-color='#6E7B8B'>
+					<h3 style="text-align: left; color:white">Mapping Search Queries to GeoLibrary Metadata Fields</h3>
+					<p style="text-align: left; color:white">University Libraries Symposium</p><br><br>
+						<div style="text-align: right;">
+							<p style='color:white'><strong>Erik Radio & Phil White</strong></p>
+							<p style='color:white'>Dec. 16, 2020</p>
+							<p ><a href='http://bit.ly/waml20git' target='_blank' style='color:#9BCD9B'>bit.ly/waml20git</a></p>
+						</div>
+				</section>
+
+				<section>
+          <div style="text-align: left;">
+            <h3>Outline</h3><br>
+            <ol>
+              <li><i class="em em-three_button_mouse" aria-role="presentation" aria-label=""></i> <i class="em em-arrow_right" aria-role="presentation" aria-label="BLACK RIGHTWARDS ARROW"></i> <i class="em em-keyboard" aria-role="presentation" aria-label=""></i> <i class="em em-question" aria-role="presentation" aria-label="BLACK QUESTION MARK ORNAMENT"></i><br>
+                <p class='fragment'>aka: Why go from GUI to Coding?<p></li><br>
+              <li><i class="em em-snake" aria-role="presentation" aria-label="NOTEBOOK WITH DECORATIVE COVER"></i> + <i class="em em-notebook_with_decorative_cover" aria-role="presentation" aria-label="NOTEBOOK WITH DECORATIVE COVER"></i> + <i class="em em-cloud" aria-role="presentation" aria-label="CLOUD"></i><br>
+                <p class='fragment'>aka: Python + Notebooks + the Cloud</p</li>
+            </ol>
+          </div>
+        </section>
+
+				<section>
+					<div id='left_slide'>
+						<h4><span style='font-style:italic'>Some setup...</span><span class='fragment'>bla ba</span></h4><br>
+							<ul>
+								<li class='fragment'>GitHub is free, open, and very approachable.</li><br>
+								<li class='fragment'>Enables collaboration, reproducibility, & version control.</li><br>
+								<li class='fragment'>Flexible and extendable.</li>
+							</ul>
+				</section>
+
+				<section>
+
+					<section data-background-color='#6E7B8B'>
+						<h2 style='color:white'>A new section</h2>
+					</section>
+
+					<section>
+						<h2> Git vs GitHub</h2>
+					</section>
+
+					<section>
+						<div id='left_slide'>
+							<h3>What is "Git"?</h3>
+							<ul>
+								<li class='fragment'><a href='https://git-scm.com/' target='_blank'>Git</a> = version control software</li>
+								<li class='fragment'>Free and open source</li>
+								<li class='fragment'>Git is for your computer—you run it locally</li>
+								<li class='fragment'>Project-specific repositories hold past versions of files</li>
+								<li class='fragment'>Mostly a command-line tool</li>
+								<li class='fragment'>Very useful for project managment</li>
+							</ul>
+						</div>
+					</section>
+
+					<section data-background-image='../img/evanpic1.png' data-background-size='100%'>
+					</section>
+
+					<section data-background-image='../img/evanpic2.png'>
+					</section>
+
+				</section>
+
+				<section>
+
+					<section data-background-color='#6E7B8B'>
+						<h2 style='color:white'>Another new section</h2>
+					</section>
+
+					<section>
+						<div id='left_slide'>
+							<h3>What is GitHub Pages?</h3>
+							<ul>
+								<li class='fragment'><a href='https://pages.github.com/' target='_blank'>GitHub Pages</a>: static webpages hosted on GitHub.</li>
+								<li class='fragment'>Free! Easy configuration!</li>
+								<li class='fragment'>Add webpages and associated content to a repo...</li>
+								<li class='fragment'>...click a couple of buttons...</li>
+								<li class='fragment'>...and BAM! you have a website.</li>
+							</ul>
+						</div>
+					</section>
+
+
+				<section>
+					<h3>That's a wrap on the slides! <i class="em em-100" aria-role="presentation" aria-label="HUNDRED POINTS SYMBOL"></i></h3>
+					<p class='fragment fade-left' >Time for a break! <i class="em em-clock2" aria-role="presentation" aria-label="CLOCK FACE TWO OCLOCK"></i></p>
+					<p class='fragment'>We will continue with Hands On! <i class="em em-raised_hands" aria-role="presentation" aria-label="PERSON RAISING BOTH HANDS IN CELEBRATION"></i></p>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+	</body>
+</html>
