@@ -133,19 +133,110 @@
 					</div>
 				</section>
 
-				<section>
-						<h4>Methods</h4>
+<!-- METHODS -->
 
+				<section data-background-color='#6E7B8B'>
+					<h2 style='color:white'>Methods <i class="em em-male-technologist" aria-role="presentation" aria-label=""></i></h2>
 				</section>
-				<section>
 
-						<h4>Results</h4><br>
-						<p>Most popular queries (descending order):</p>
-<ol>
-					<li class='fragment'>topical</li><br>
-					<li class='fragment'>place name</li><br>
-					<li class='fragment'>locational</li><br>
-				</ol>
+				<section>
+					<div id='left_slide'>
+						<h3>Data</h3>
+						<ul>
+							<li class='fragment'><a href='https://github.com/outpw/geo_meta/blob/main/data/input/SearchTerms.csv' target='_blank'>Search Querys</a>: Google Analytics</li><br>
+							<li class='fragment'>Each query assigned a query type</li><br>
+							<li class='fragment'>Compiled a copy of the <a href='https://libapps.colorado.edu/api/catalog/data/catalog/geoportal/?format=json' target='blank'>GeoLibrary catalog</a></li>
+						</ul>
+					</div>
+				</section>
+
+				<section>
+					<div id='left_slide'>
+						<h3>Methods</h3>
+						<ul>
+							<li class='fragment'>Python script counted number of times a query matched to a metadata field</li><br>
+							<li class='fragment'>Second Python script tallied each time a query of a category type matched to a field</li><br>
+							<li class='fragment'><a href='https://github.com/outpw/geo_meta' target='_blank'>Code repository is on GitHub</a></li>
+						</ul>
+					</div>
+				</section>
+
+				<section>
+					<h4>Query Types</h4>
+					<div style='font-size:25px'>
+						<table>
+							<thead>
+							  <tr>
+							    <th>Type</th>
+							    <th>Description</th>
+							    <th>Example</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+							    <td>Datatype</td>
+							    <td>type of GIS data</td>
+							    <td>Basemap, contours</td>
+							  </tr>
+							  <tr>
+							    <td>Format</td>
+							    <td>file type</td>
+							    <td>Geotiff, shapefile</td>
+							  </tr>
+							  <tr>
+							    <td>Locational</td>
+							    <td>general type of place</td>
+							    <td>Campsites, buildings</td>
+							  </tr>
+							  <tr>
+							    <td>Place name</td>
+							    <td>specific place</td>
+							    <td>Continental Divide, Colorado Springs</td>
+							  </tr>
+							  <tr>
+							    <td>Organization</td>
+							    <td>corporate entity</td>
+							    <td>Colorado DOT, Census Bureau</td>
+							  </tr>
+							  <tr>
+							    <td>Person</td>
+							    <td>human being</td>
+							    <td>John Doe</td>
+							  </tr>
+							  <tr>
+							    <td>Publication</td>
+							    <td>issuance of a particular resource</td>
+							    <td>Census tracts, Bureau of Land Management roads</td>
+							  </tr>
+							  <tr>
+							    <td>Topical</td>
+							    <td>subject of interest</td>
+							    <td>Agriculture, aliens</td>
+							  </tr>
+							  <tr>
+							    <td>Unknown</td>
+							    <td>?</td>
+							    <td>2000, trib</td>
+							  </tr>
+							</tbody>
+							</table>
+						</div>
+				</section>
+
+
+<!-- RESULTS -->
+
+				<section data-background-color='#6E7B8B'>
+					<h2 style='color:white'>Results <i class="em em-abacus" aria-role="presentation" aria-label="ABACUS"></i></i></h2>
+				</section>
+
+				<section>
+					<h4>Most popular queries (descending order):</h4><br>
+					<ol>
+						<li class='fragment'>topical</li><br>
+						<li class='fragment'>place name</li><br>
+						<li class='fragment'>locational</li><br>
+					</ol>
 				</section>
 
 				<section data-markdown>
@@ -158,13 +249,22 @@
 
 				</section>
 
+				<section data-background-image='img/geometa_fig1.png' data-background-size="900px 540px">
+
+				</section>
+
+<!-- DISCUSSION & CONCLUSION -->
+
+				<section data-background-color='#6E7B8B'>
+					<h2 style='color:white'>Discussion <i class="em em-speech_balloon" aria-role="presentation" aria-label="SPEECH BALLOON"></i></h2>
+				</section>
+
 				<section data-markdown>
 						#### Analysis
 
 						- Subjects not as useful as anticipated
 						- Synonyms have potential for increasing matches
 						- Best fields for matching remain *dc.description* and *dc.title*
-
 
 				</section>
 
@@ -177,41 +277,15 @@
 					</section>
 
 
-<!-- METHODS -->
 
-				<section data-background-color='#6E7B8B'>
-					<h2 style='color:white'>Methods <i class="em em-male-technologist" aria-role="presentation" aria-label=""></i></h2>
-				</section>
 
-				<section>
-					<div id='left_slide'>
-						<h3>What is "Git"?</h3>
-						<ul>
-							<li class='fragment'><a href='https://git-scm.com/' target='_blank'>Git</a> = version control software</li>
-							<li class='fragment'>Free and open source</li>
-							<li class='fragment'>Git is for your computer—you run it locally</li>
-							<li class='fragment'>Project-specific repositories hold past versions of files</li>
-							<li class='fragment'>Mostly a command-line tool</li>
-							<li class='fragment'>Very useful for project managment</li>
-						</ul>
-					</div>
-				</section>
 
-<!-- RESULTS -->
-
-				<section data-background-color='#6E7B8B'>
-					<h2 style='color:white'>Results <i class="em em-abacus" aria-role="presentation" aria-label="ABACUS"></i></i></h2>
-				</section>
 
 				<section>
 
 				</section>
 
-<!-- DISCUSSION & CONCLUSION -->
 
-				<section data-background-color='#6E7B8B'>
-					<h2 style='color:white'>Discussion <i class="em em-speech_balloon" aria-role="presentation" aria-label="SPEECH BALLOON"></i></h2>
-				</section>
 
 				<section>
 					<div id='left_slide'>
