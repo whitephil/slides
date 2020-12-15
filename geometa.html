@@ -101,7 +101,7 @@
 				<section>
 					<div id='left_slide'>
 						<h4>Research Questions:</h4><br>
-						<ol>
+						<ol style='font-size:33px'>
 							<li class='fragment'>What query terms mapped most frequently to which metadata fields?</li><br>
 							<li  class='fragment'>Is there a type of query that more generally appears to map to certain fields?</li><br>
 						</ol>
@@ -117,8 +117,14 @@
 
 				<section>
 					<div id='left_slide'>
-						<h4>Geospatial Repositories and Metadata Evaluation</h4>
-
+						<h4>GeoBlacklight Repositories and Metadata Evaluation</h4>
+						<ul style='font-size:30px'>
+							<li class='fragment'>GBL metadata lacks unified approach across institutions (Batista et al., 2017).</li><br>
+							<li class='fragment'>UX study found disambiguation problems in both subjects & places (Blake et al., 2017).</li><br>
+							<li class='fragment'>Blake et al. also found users rely most on the description field.</li><br>
+							<li class='fragment'>Few query log studies; some have found organizational, data type, or publication to be most common (Schindler et al., 2019).</li><br>
+						</ul>
+					</div>
 
 				</section>
 
@@ -146,17 +152,6 @@
 							<li class='fragment'><a href='https://github.com/outpw/geo_meta/blob/main/data/input/SearchTerms.csv' target='_blank'>Search Queries</a>: Google Analytics</li><br>
 							<li class='fragment'>Each query assigned a query type</li><br>
 							<li class='fragment'>Compiled a copy of the <a href='https://libapps.colorado.edu/api/catalog/data/catalog/geoportal/?format=json' target='blank'>GeoLibrary catalog</a></li>
-						</ul>
-					</div>
-				</section>
-
-				<section>
-					<div id='left_slide'>
-						<h3>Methods</h3>
-						<ul>
-							<li class='fragment'>Python script counted number of times a query matched to a metadata field</li><br>
-							<li class='fragment'>Second Python script tallied each time a query of a category type matched to a field</li><br>
-							<li class='fragment'><a href='https://github.com/outpw/geo_meta' target='_blank'>Code repository is on GitHub</a></li>
 						</ul>
 					</div>
 				</section>
@@ -223,6 +218,16 @@
 						</div>
 				</section>
 
+				<section>
+					<div id='left_slide'>
+						<h3>Methods</h3>
+						<ul>
+							<li class='fragment'>Python script counted number of times a query matched to a metadata field</li><br>
+							<li class='fragment'>Second Python script tallied each time a query of a category type matched to a field</li><br>
+							<li class='fragment'><a href='https://github.com/outpw/geo_meta' target='_blank'>Code repository is on GitHub</a></li>
+						</ul>
+					</div>
+				</section>
 
 <!-- RESULTS -->
 
@@ -250,7 +255,9 @@
 				</section>
 
 				<section data-background-image='img/geometa_fig1.png' data-background-size="900px 540px">
+				</section>
 
+				<section data-background-image='img/geometa_fig2.png' data-background-size="900px 540px">
 				</section>
 
 <!-- DISCUSSION & CONCLUSION -->
@@ -274,36 +281,25 @@
 						- Datasets have unique descriptive requirements
 						- Large gap exists between metadata professionals and data creators
 
-					</section>
-
-
-
-
-
-
-				<section>
-
 				</section>
-
-
 
 				<section>
 					<div id='left_slide'>
-						<h3>stuff</h3>
-						<ul>
-							<li class='fragment'>stuff</li>
-							<li class='fragment'>stuff</li>
-							<li class='fragment'>stuff</li>
-							<li class='fragment'>stuff</li>
-							<li class='fragment'>more stuff</li>
+						<h4>Implications</h4>
+						<ul style='font-size:28px'>
+							<li class='fragment'>~20 institutions use GeoBlackLight, and most share metadata via OpenGeoMetadata Repository</li><br>
+							<li class='fragment'>We found many "false positive" results happen because "Colorado" is in so many metadata fields; state institutions should not index "provenance".</li><br>
+							<li class='fragment'>Metadata creators should include rich description and title for improved discovery</li><br>
+							<li class='fragment'>This is easily relicable for other GeoBlacklight repos.</li><br>
+							<li class='fragment'>We would like to see if others have similar results. Would results be different based on different metadata practices?</li>
 						</ul>
 					</div>
 				</section>
 
 
 				<section>
-					<h3 style='font-style:italic'>Fin!</h3>
-					<p class='fragment fade-left'>Question time.</p>
+					<h3 style='font-style:italic'>Fin!</h3><br>
+					<p class='fragment fade-left'>Thanks everyone!<br><br>Question time.</p>
 				</section>
 
 			</div>
