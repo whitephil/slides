@@ -29,6 +29,30 @@
 		#left_slide {
 			text-align: left;}
 
+		.float-container {
+    	padding: 20px;
+			}
+
+		.float-child1 {
+		    width: 30%;
+		    float: left;
+			}
+
+		.float-child2 {
+				width: 70%;
+				float: left;
+			}
+
+		.float-child3 {
+		    width: 70%;
+		    float: left;
+			}
+
+		.float-child4 {
+				width: 30%;
+				float: right;
+			}
+
 		</style>
 
 		<!-- Theme used for syntax highlighting of code -->
@@ -159,31 +183,32 @@
 				</section>
 
 				<section>
-					<div id='left_slide'>
-						<h3 style='font-size:.9em'>Innovative Instruction</h3>
-							<p style='font-size:.65em; padding: 0 0em 1em 0'>Owing to the technical nature of these workshops, I began to look for ways to lower barriers of entry many people might percieve about GIS and coding.</p>
-							<p style='font-size:.65em; padding: 0 0em 1em 0'>This led me to move all workshop documentation to a website hosted on GitHub, which was particularly useful during the COVID-19 pandemic.</p>
+					<h3 style='font-size:.7em; text-align: left'>Innovative Instruction</h3>
+					<div class="float-container">
+						<div class="float-child3">
+							<figure><iframe src="https://cu-boulder-crdds.github.io/GIS-workshops" style="width: 1000px; height: 580px; border: 1px solid LightGrey"></iframe><figcaption style='font-size:.3em; font-style:italic'>Visit this site at: <a href='https://cu-boulder-crdds.github.io/GIS-workshops' target='_blank'>cu-boulder-crdds.github.io/GIS-workshops</a></figcaption></figure>
+						</div>
+						<div class="float-child4" id='left_slide'>
+							<p style='font-size:.4em; padding: 0 0em 1em 0; line-height: 1.5em'>Owing to the technical nature of these workshops, I began to look for ways to lower barriers of entry many people might percieve about GIS and coding.</p>
+							<p style='font-size:.4em; padding: 0 0em 1em 0; line-height: 1.5em'>This led me to move all workshop documentation to a website hosted on GitHub, which provides access to GIS instructional materials at any time.</p>
+							<p style='font-size:.4em; padding: 0 0em 1em 0; line-height: 1.5em'>The GIS Workshops site was particularly useful during the COVID-19 pandemic.</p>
+						</div>
 					</div>
 				</section>
 
 				<section>
-					<p style='text-align: left; font-size:.5em; font-weight:bold'>Geospatial Workshop Series Website and Documentation</p>
-					<p style='text-align: left; font-style:italic; font-size:.35em'>Click to interact, or view full site here: <a href='https://cu-boulder-crdds.github.io/GIS-workshops' target='_blank'>https://cu-boulder-crdds.github.io/GIS-workshops</a>.</p>
-					<iframe src='https://cu-boulder-crdds.github.io/GIS-workshops' style='width: 1400px; height: 600px;' frameBorder='0'></iframe>
-				</section>
-
-				<section>
-					<div id='left_slide'>
-						<h3 style='font-size:.9em'>Innovative Instruction</h3>
-							<p style='font-size:.65em; padding: 0 0em 1em 0'>I also worked with colleagues in Research Computing to provide a cloud instance of JupyterHub for Python instruction.</p>
-							<p style='font-size:.65em; padding: 0 0em 1em 0'>Leading programming lessons on a JupyterHub allows everyone to access the same computer over the web, eliminating the need for attendees to set up complicated coding environments on their personal computers prior to the workshop.</p>
+					<h3 style='font-size:.7em; text-align: left'>Innovative Instruction</h3>
+					<div class="float-container">
+						<div class="float-child1" id='left_slide'>
+							<p style='font-size:.35em; padding: 0 0em 1em 0; line-height: 1.5em'>I also worked with colleagues in Research Computing to provide a cloud instance of JupyterHub for Python instruction.</p>
+							<p style='font-size:.35em; padding: 0 0em 1em 0; line-height: 1.5em'>Jupyter is a computer programming interface that is popular in instruction settings for its line-by-line code executation and its interspersed instructions.</p>
+							<p style='font-size:.35em; padding: 0 0em 1em 0; line-height: 1.5em'>Leading programming lessons on a JupyterHub allows everyone to access the same computer over the web, eliminating the need for attendees to manage complicated coding environments on their personal computers prior to the workshop.</p>
+							<p style='font-size:.35em; padding: 0 0em 1em 0; line-height: 1.5em'>This allows participants to sit down and start learning without the barrier of technical set up.</p>
+						</div>
+						<div class="float-child2">
+							<figure><iframe src="https://outpw.github.io/GIS-workshops/GeoPandas/notebooks/4.%20Spatial%20Join.html" style="width: 1000px; height: 580px; border: 1px solid LightGrey"></iframe><figcaption style='font-size:.3em; font-style:italic'>Example Jupyter Notebook</figcaption></figure>
+						</div>
 					</div>
-				</section>
-
-				<section>
-					<p style='text-align: left; font-size:.5em; font-weight:bold'>An example Jupyter Notebook used for a Python-based GIS workshop</p>
-					<p style='text-align: left; font-size:.35em'>When combind with a JupyterHub, teaching Python in a notebook environment provides annotated, step-by-step instructions with minimal set-up.</p>
-					<iframe src="https://outpw.github.io/GIS-workshops/GeoPandas/notebooks/3.%20Joins%20%26%20Choropleth%20Plot.html" style="width: 1000px; height: 500px" frameBorder="0"></iframe>
 				</section>
 
 				<section data-background-color='#595959'>
@@ -214,25 +239,7 @@
 						<p style='font-size: .65em; padding: 0 0em 1em 0'>Here are a few positive comments from some students and professionals that participated:</p>
 						<div style='font-size:.5em; padding-left: 2em'>
 							<p><span style='font-style:italic'>"It's super user friendly even if you're not a GIS person. I like on the results page these dropdowns that help you narrow your search criteria. Overall it's user friendly and a helpful resource for sure."</span> (Undergraduate)</p><br>
-						</div>
-					</div>
-				</section>
-
-				<section>
-					<div id='left_slide'>
-						<h3 style='font-size:.9em'>Geospatial Data Access</h3>
-						<p style='font-size: .65em; padding: 0 0em 1em 0'>Positive comments from some usability testing (cont.):</p>
-						<div style='font-size:.5em; padding-left: 2em'>
 							<p><span style='font-style:italic'>"I like the cleanliness of the home page. It's very inviting and I feel like I can throw something in the search bar and see what happens. I don't feel like I'll have to learn the site, I'll be able to move through it and figure it out as I go."</span> (Graduate student)</p><br>
-						</div>
-					</div>
-				</section>
-
-				<section>
-					<div id='left_slide'>
-						<h3 style='font-size:.9em'>Geospatial Data Access</h3>
-						<p style='font-size: .65em; padding: 0 0em 1em 0'>Positive comments from some usability testing (cont.):</p>
-						<div style='font-size:.5em; padding-left: 2em'>
 							<p><span style='font-style:italic'>"I've never actually seen a GIS data [site] that looks like this and I do like the look of it. I think it's very intuitive, especially after spending too much time on the census website."</span><br>(GIS specialist)</p><br>
 						</div>
 					</div>
