@@ -88,7 +88,7 @@
 							<li class="fragment">However, it's unreasonable to go download data 2500–3000 different counties.</li><br>
 							<li class="fragment">Not all 3143 US counties make them available; some only sell their data.</li><br>
 							<li class="fragment">Where to buy it? And how much is it?</li><br>
-							<li class="fragment">FY21–22 we acquired parcel data for 2600+ US counties (of 3143)</li>
+							<li class="fragment">FY21–22 we acquired parcel data for 2600+ US counties (of 3143). Available in AGO and got the full dataset on a drive.</li>
 						</ul>
 					</div>
 
@@ -155,6 +155,7 @@
 							<li class="fragment">This was far too complicated for a student to complete in a semester.</li><br>
 							<li class="fragment">Result: "Okay, I'll do it... can't be too hard right?"</li><br>
 							<li class="fragment">Convert all code to open source. Python of course.</li><br>
+							<li class="fragment">Started developing data processing pipeline using Colorado as the test data.</li>
 							<li class="fragment">Myriad data complications that needed to be accounted for in the process.</li><br>
 							<li class="fragment">Even with a programmatic approach, simply iterating over counties/states resulted in extremely long run times.</li><br>
 						</ul>
@@ -172,6 +173,7 @@
 							<li>Roads as parcels: filter out complex geoms</li>
 							<li>Stacked parcels: deduplicate</li>
 							<li>Inaccurate MH points: near join</li>
+							<li>But, sometimes nearest parcel is the wrong one</li>
 							<li>Mobile Home park exists on multiple parcels: one to many join</li>
 							<li>One to many join results in getting all parcels within a radius, not just MH parcels</li>
 							<li>Had to incorporate nationwide buildings data to filter parcels that did not look like MH parks</li>
@@ -323,7 +325,7 @@
 							<li class="fragment">Open source is essential for libraries.</li><br>
 							<li class="fragment">Librarians working in this space need to know open source options, including programming languages.</li><br>
 							<li class="fragment">Would this have been possible using 'Data as a Service' model? I think not.</li><br>
-							<li class="fragment">There is a place for DaaS.. But, not a true replacement for owning the data.</li><br>
+							<li class="fragment">There is a place for DaaS... But, not a true replacement for owning the data.</li><br>
 							<li class="fragment">Finally, parcel data comes with a a host of complications--I hope this helps!</li>
 						</ul>
 					</div>
